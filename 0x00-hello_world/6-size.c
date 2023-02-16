@@ -1,18 +1,14 @@
 #include <stdio.h>
 /**
-* main - Program that prints the size of various types of data
-*
-* Return: 0 (success)
-*/
+ * main - program that print size of data types based on the computer it is complied 
+ * Return: Always 0.
+ */
 int main(void)
 {
-int intType;
-float floatType;
-double doubleType;
-char charType;
-printf("Size of int: %zu bytes\n", sizeof(intType));
-printf("Size of float: %zu bytes\n", sizeof(floatType));
-printf("Size of double: %zu bytes\n", sizeof(doubleType));
-printf("Size of char: %zu byte\n", sizeof(charType));
-return (0);
+	printf("Size of a char: %zu byte(s)\n", sizeof(char));
+	printf("Size of an int: %zu byte(s)\n", sizeof(int));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %zu byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %zu byte(s)\n", sizeof(float));
+	return(0);
 }
