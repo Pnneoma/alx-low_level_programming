@@ -5,9 +5,9 @@
 /**
  * main - Entry point
  *
- * Description: Print all possible combination of single digit numbers
+ * Description: print combination
  *
- * Return: Always 0 (success)
+ * Return:Always ) (Success)
  *
  */
 
@@ -19,11 +19,11 @@ int main(void)
 	{
 		putchar(d);
 		if (d != '9')
-	{
-	putchar(',');
-	putchar(' ');
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
-	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
