@@ -5,12 +5,11 @@
 /**
  * main - Entry point
  *
- * Descrption: Print 
+ * Descrption: Print
  *
  * Return: Always 0 (Succes)
  *
  */
-
 int main(void)
 
 {
