@@ -3,7 +3,7 @@
 
 /**
  * main - Prints the Largest prime number of the number 612852475143
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
