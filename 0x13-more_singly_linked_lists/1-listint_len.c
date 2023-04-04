@@ -9,12 +9,11 @@
 
 size_t listint_len(const listint_t *h)
 {
-	size_t lens = 0;
-
-while (h)
-	{
-	    lens++;
-	    h = h->next;
-	}
-	return (lens);
+size_t lens = 0;
+while (h != NULL)
+{
+lens++;
+h = h->next;
+}
+return (lens);
 }
